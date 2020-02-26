@@ -1,0 +1,22 @@
+.feed {
+    width: 600px;
+    background: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.post {
+    border-bottom: 1px solid #b6b6b6;
+    padding-left: 1px;
+    margin-left: -1px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.m-5px {
+    margin: 5px;
+}

@@ -1,0 +1,16 @@
+<div class="container feed">
+    <div class="row">
+        <div class="post" *ngFor="let post of posts">
+            <h3 class="align-middle m-5px">{{ post.title }}</h3>
+            <img src="{{ post.imgSrc }}" alt="{{ post.title }}" width="100%">
+            <div class="row m-5px">
+                <a class="align-items-center" (click)="toggleLike($event)">
+                    <img class="icon" [src]="notLikedSrc">
+                </a>
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/comments.png">
+                <img class="icon" src="https://img.icons8.com/ios/50/000000/share-2.png">
+            </div>
+            <p class='m-5px'>{{ post.description }}</p>
+        </div>
+    </div>
+</div>
